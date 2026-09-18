@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Team</title>
+    <link rel="stylesheet" href="./CSS/output.css">
+    <link rel="icon" type="png/jpg" href="./media/header_icon.png" alt="logo de pestaña">
+</head>
+
+<body class="m-0 box-border bg-white">
+
+    <audio src="./media/background_sound.mp3" autoplay loop></audio>
+
+    <header
+        class="fixed z-[3] w-full border-b border-green-500 bg-black px-5 py-[10px] text-white shadow-[0_0_12px_#39ff14]"
+    >
+        <nav class="flex items-center justify-around max-md:justify-between">
+
+            <div class="flex">
+                <img
+                    class="transition duration-300 hover:sepia hover:saturate-[500%] hover:hue-rotate-[50deg]"
+                    src="./media/header_icon.png"
+                    alt="logo-header"
+                    width="50px"
+                >
+
+                <h1 class="px-3 py-1.5 font-sans text-[2rem] text-white">
+                    Alpha Team
+                </h1>
+            </div>
+
+            <ul
+                class="flex list-none gap-8 text-[0.9rem] font-bold font-sans max-md:absolute max-md:right-0 max-md:top-full max-md:hidden max-md:w-full max-md:flex-col max-md:items-start max-md:gap-[2px] max-md:bg-[#181717]"
+                id="nav__ul"
+            >
+                <li class="w-auto max-md:w-full">
+                    <a
+                        href="index.html"
+                        class="rounded-md px-4 py-1.5 text-white no-underline transition duration-300 hover:bg-[#1f2020] hover:text-[#00ff37] max-md:block max-md:w-full max-md:px-3 max-md:py-5 max-md:text-base"
+                    >
+                        INFORMACIÓN GENERAL
+                    </a>
+                </li>
+
+                <li class="group relative w-auto max-md:w-full">
+                    <a
+                        href=""
+                        class="rounded-md px-4 py-1.5 text-white no-underline transition duration-300 hover:bg-[#1f2020] hover:text-[#00ff37] max-md:block max-md:w-full max-md:px-3 max-md:py-5 max-md:text-base"
+                    >
+                        HISTORIA
+                    </a>
+
+                    <ul
+                        class="absolute left-0 top-[130%] hidden w-[18vw] list-none flex-col rounded-lg border border-[#302f2f] bg-[#1a1919] font-sans group-hover:flex max-md:static max-md:w-full max-md:ml-0 max-md:bg-[#141414] max-md:p-4"
+                    >
+                        <li class="border-t-0 p-4 hover:bg-[#333233] max-md:w-full">
+                            <a href="" class="p-0 text-base text-white no-underline">
+                                Cápitulo 1
+                            </a>
+                        </li>
+
+                        <li class="border-t border-[#3a3939] p-4 hover:bg-[#333233] max-md:w-full">
+                            <a href="" class="p-0 text-base text-white no-underline">
+                                Cápitulo 2
+                            </a>
+                        </li>
+
+                        <li class="border-t border-[#3a3939] p-4 hover:bg-[#333233] max-md:w-full">
+                            <a href="" class="p-0 text-base text-white no-underline">
+                                Cápitulo 3
+                            </a>
+                        </li>
+
+                        <li class="border-t border-[#3a3939] p-4 hover:bg-[#333233] max-md:w-full">
+                            <a href="" class="p-0 text-base text-white no-underline">
+                                Cápitulo 4
+                            </a>
+                        </li>
+
+                        <li class="border-t border-[#3a3939] p-4 hover:bg-[#333233] max-md:w-full">
+                            <a href="" class="p-0 text-base text-white no-underline">
+                                Cápitulo 5
+                            </a>
+                        </li>
+
+                        <li class="border-t border-[#3a3939] p-4 hover:bg-[#333233] max-md:w-full">
+                            <a href="" class="p-0 text-base text-white no-underline">
+                                Cápitulo 6
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="group relative w-auto max-md:w-full">
+                    <a
+                        href="#"
+                        class="rounded-md px-4 py-1.5 text-white no-underline transition duration-300 hover:bg-[#1f2020] hover:text-[#00ff37] max-md:block max-md:w-full max-md:px-3 max-md:py-5 max-md:text-base"
+                    >
+                        PERSONAJES
+                    </a>
+
+                    <ul
+                        class="absolute left-0 top-[130%] hidden w-[18vw] list-none flex-col rounded-lg border border-[#302f2f] bg-[#1a1919] font-sans group-hover:flex max-md:static max-md:w-full max-md:ml-0 max-md:bg-[#141414] max-md:p-4"
+                    >
+                        <li class="border-t-0 p-4 hover:bg-[#333233] max-md:w-full">
+                            <a
+                                href="./protagonistas.html"
+                                class="p-0 text-base text-white no-underline"
+                            >
+                                Protagonistas
+                            </a>
+                        </li>
+
+                        <li class="border-t border-[#3a3939] p-4 hover:bg-[#333233] max-md:w-full">
+                            <a
+                                href="./antagonistas.html"
+                                class="p-0 text-base text-white no-underline"
+                            >
+                                Antagonistas
+                            </a>
+                        </li>
+
+                        <li class="border-t border-[#3a3939] p-4 hover:bg-[#333233] max-md:w-full">
+                            <a
+                                href="./extras.html"
+                                class="p-0 text-base text-white no-underline"
+                            >
+                                Extras
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="w-auto max-md:w-full">
+                    <a
+                        href=""
+                        class="rounded-md px-4 py-1.5 text-white no-underline transition duration-300 hover:bg-[#1f2020] hover:text-[#00ff37] max-md:block max-md:w-full max-md:px-3 max-md:py-5 max-md:text-base"
+                    >
+                        TIENDA
+                    </a>
+                </li>
+            </ul>
+
+            <div
+                class="hidden cursor-pointer flex-col rounded-lg px-[10px] py-2 hover:bg-[#383636] max-md:flex"
+                id="hamburguer"
+            >
+                <span class="my-0.5 h-[3px] w-5 bg-white"></span>
+                <span class="my-0.5 h-[3px] w-5 bg-white"></span>
+                <span class="my-0.5 h-[3px] w-5 bg-white"></span>
+            </div>
+
+        </nav>
+    </header>
+
+    <section
+        class="relative flex min-h-[110vh] items-start justify-start pt-20 max-md:justify-center"
+    >
+
+        <div
+            class="absolute inset-0 z-0 bg-cover bg-bottom bg-[url('https://wallpapercave.com/wp/wp13559360.jpg')] max-md:bg-[url('https://assets.metrocop.net/wp-content/uploads/articles/adrian-shephard/adrian-shephard-by-kal-sheath-entertainment.jpg')]"
+        ></div>
+
+        <div
+            class="pointer-events-none absolute inset-0 z-[2]"
+            id="hero__shadow"
+        ></div>
+
+        <div
+            class="relative z-[1] mx-4 max-w-[600px] font-sans text-white max-md:text-center max-md:[text-shadow:0_0_30px_black,0_0_20px_black]"
+        >
+
+            <h3
+                class="mb-6 mt-[1.8rem] tracking-[0.2rem] text-[#00ff37]"
+            >
+                EQUIPO TÁCTICO DE ÉLITE
+            </h3>
+
+            <h2
+                class="mb-8 font-[Arial,Helvetica,sans-serif] text-[6rem] font-black leading-none max-md:text-[3.5rem]"
+            >
+                ALPHA<br>
+                <span
+                    class="text-[#00ff37] [text-shadow:0_0_12px_#39ff14,0_0_18px_#39ff14]"
+                    id="team-word"
+                >
+                    TEAM
+                </span>
+            </h2>
+
+            <p
+                class="my-5 text-[1.3rem] text-[#c5c1c1] [text-shadow:0_0_30px_black,0_0_30px_black,0_0_30px_black] max-md:[&>br]:hidden"
+            >
+                El mundo ha caído ante los no-muertos. Solo un<br>
+                escuadrón de élite puede detener el apocalipsis. Únete a<br>
+                la resistencia.
+            </p>
+
+            <div
+                class="absolute mt-4 flex cursor-pointer gap-4 max-md:relative max-md:w-full max-md:flex-col"
+            >
+                <button
+                    class="cursor-pointer rounded-md border border-[#09ff00] bg-[#09ff00] px-8 py-[1.2rem] font-sans text-base font-bold hover:shadow-[0_0_16px_#09ff00] max-md:w-full"
+                >
+                    EXPLORAR
+                </button>
+
+                <button
+                    id="button__tienda"
+                    class="cursor-pointer rounded-md border border-[#09ff00] bg-transparent px-8 py-[1.2rem] font-sans text-base font-bold text-white hover:shadow-[0_0_16px_white] max-md:w-full max-md:border-black max-md:bg-[#ef4343]"
+                >
+                    TIENDA
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <hr class="h-[5px] w-full border-0 bg-[#122e0d]">
+
+    <section
+        class="flex min-h-[80vh] items-center justify-center bg-black"
+    >
+
+        <div
+            class="rounded-lg border border-[#474747] bg-[#1a1d17] p-12 shadow-[0_0_4px_#37ff1436,0_0_16px_#37ff143d] max-md:p-6 max-md:[&>div>div>br]:hidden"
+        >
+
+            <div
+                class="flex gap-6 font-sans text-white max-md:flex-col"
+            >
+
+                <div class="flex items-start justify-center">
+
+                    <div
+                        class="rounded-lg border border-[#37ff14] p-2 shadow-[0_0_4px_#39ff14]"
+                    >
+                        <img
+                            src="./media/info_logo.png"
+                            alt="virus-icon"
+                            width="60"
+                            class="max-md:h-auto max-md:w-20"
+                        >
+                    </div>
+
+                </div>
+
+                <div class="text-center md:text-left">
+
+                    <h4 class="text-[1.5rem]">
+                        INFORME CLASIFICADO:
+                        <span class="text-[#39ff14]">
+                            OPERACIÓN ALPHA
+                        </span>
+                    </h4>
+
+                    <p
+                        class="my-6 text-[1.1rem] leading-6 text-[#999999]"
+                    >
+                        El virus se propagó sin control. Las ciudades cayeron una a una ante las hordas de
+                        infectados.<br>
+                        Pero lo peor vino después: las mutaciones. Nemesis y Assassin surgieron de las sombras,<br>
+                        convirtiendo cada misión en una lucha por la supervivencia.
+                    </p>
+
+                    <p class="my-6 text-[1.1rem] leading-6">
+                        <span class="text-[#39ff14]">
+                            El Equipo Alpha
+                        </span>
+                        fue formado para lo imposible:
+                        rescatar supervivientes, eliminar amenazas y<br>
+                        descubrir el origen del virus.
+                        <span class="text-[#ef4343]">
+                            La humanidad depende de ellos.
+                        </span>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="h-[5px] w-full border-0 bg-[#122e0d]">
+
+    <section
+        class="flex min-h-[120vh] items-center justify-center bg-black font-sans max-md:px-16"
+    >
+
+        <div
+            class="flex flex-col gap-16 text-center"
+        >
+
+            <div class="text-white">
+
+                <p
+                    class="text-[0.9rem] font-bold tracking-[0.2rem] text-[#37ff14]"
+                >
+                    CONOCE AL ESCUADRÓN DE ÉLITE
+                </p>
+
+                <h4 class="m-2 text-[3rem] font-black">
+                    EQUIPO
+                    <span
+                        class="text-[#37ff14] [text-shadow:0_0_10px_#37ff14]"
+                        id="h4-neon"
+                    >
+                        ALPHA
+                    </span>
+                </h4>
+
+                <p class="leading-6 text-[#999999] max-md:[&>br]:hidden">
+                    Soldados de élite entrenados para enfrentar lo imposible. Cada miembro tiene un rol
+                    vital en la<br>
+                    supervivencia del equipo.
+                </p>
+
+            </div>
+
+            <div class="flex gap-6 max-md:flex-wrap">
+
+                <div
+                    class="relative mx-auto h-[418px] w-[300px] rounded-lg border border-[#474747] text-white hover:shadow-[0_0_20px_#37ff14,0_0_16px_#37ff14] hover:transition-shadow hover:duration-300"
+                >
+
+                    <div
+                        class="mx-auto mt-10 h-[250px] w-[250px] rounded-full border border-[#1c9108]"
+                    >
+                        <img
+                            src="./media/personaje (3).png"
+                            alt=""
+                            class="h-full w-full rounded-full object-cover transition duration-300 hover:scale-110 hover:brightness-150"
+                        >
+                    </div>
+
+                    <div class="ml-6 text-left font-sans">
+
+                        <p class="m-2 text-[1.6rem] font-bold">
+                            Josue
+                        </p>
+
+                        <p
+                            class="m-2 font-[Arial,Helvetica,sans-serif] text-[0.8rem] font-bold tracking-[1px] text-[#37ff14]"
+                        >
+                            "LONE WOLF"
+                        </p>
+
+                        <p class="m-2 text-[0.9rem] text-[#a3a0a0]">
+                            Eliminación de objetivos de alto valor en escenarios de alta complejidad
+                        </p>
+
+                    </div>
+                </div>
+
+                <div
+                    class="relative mx-auto h-[418px] w-[300px] rounded-lg border border-[#474747] text-white hover:shadow-[0_0_20px_#37ff14,0_0_16px_#37ff14] hover:transition-shadow hover:duration-300"
+                >
+
+                    <div
+                        class="mx-auto mt-10 h-[250px] w-[250px] rounded-full border border-[#1c9108]"
+                    >
+                        <img
+                            src="./media/personaje (4).png"
+                            alt=""
+                            class="h-full w-full rounded-full object-cover transition duration-300 hover:scale-110 hover:brightness-150"
+                        >
+                    </div>
+
+                    <div class="ml-6 text-left font-sans">
+
+                        <p class="m-2 text-[1.6rem] font-bold">
+                            Carlos
+                        </p>
+
+                        <p
+                            class="m-2 font-[Arial,Helvetica,sans-serif] text-[0.8rem] font-bold tracking-[1px] text-[#37ff14]"
+                        >
+                            "SHADOW"
+                        </p>
+
+                        <p class="m-2 text-[0.9rem] text-[#a3a0a0]">
+                            Trazado de rutas y aseguramiento silencioso del terreno
+                        </p>
+
+                    </div>
+                </div>
+
+                <div
+                    class="relative mx-auto h-[418px] w-[300px] rounded-lg border border-[#474747] text-white hover:shadow-[0_0_20px_#37ff14,0_0_16px_#37ff14] hover:transition-shadow hover:duration-300"
+                >
+
+                    <div
+                        class="mx-auto mt-10 h-[250px] w-[250px] rounded-full border border-[#1c9108]"
+                    >
+                        <img
+                            src="./media/personaje (1).png"
+                            alt=""
+                            class="h-full w-full rounded-full object-cover transition duration-300 hover:scale-110 hover:brightness-150"
+                        >
+                    </div>
+
+                    <div class="ml-6 text-left font-sans">
+
+                        <p class="m-2 text-[1.6rem] font-bold">
+                            John
+                        </p>
+
+                        <p
+                            class="m-2 font-[Arial,Helvetica,sans-serif] text-[0.8rem] font-bold tracking-[1px] text-[#37ff14]"
+                        >
+                            "GUARDIAN"
+                        </p>
+
+                        <p class="m-2 text-[0.9rem] text-[#a3a0a0]">
+                            Soporte táctico, protección de aliados y recursos
+                        </p>
+
+                    </div>
+                </div>
+
+                <div
+                    class="relative mx-auto h-[418px] w-[300px] rounded-lg border border-[#474747] text-white hover:shadow-[0_0_20px_#37ff14,0_0_16px_#37ff14] hover:transition-shadow hover:duration-300"
+                >
+
+                    <div
+                        class="mx-auto mt-10 h-[250px] w-[250px] rounded-full border border-[#1c9108]"
+                    >
+                        <img
+                            src="./media/personaje (2).png"
+                            alt=""
+                            class="h-full w-full rounded-full object-cover transition duration-300 hover:scale-110 hover:brightness-150"
+                        >
+                    </div>
+
+                    <div class="ml-6 text-left font-sans">
+
+                        <p class="m-2 text-[1.6rem] font-bold">
+                            Alejandro
+                        </p>
+
+                        <p
+                            class="m-2 font-[Arial,Helvetica,sans-serif] text-[0.8rem] font-bold tracking-[1px] text-[#37ff14]"
+                        >
+                            "BALANCER"
+                        </p>
+
+                        <p class="m-2 text-[0.9rem] text-[#a3a0a0]">
+                            Limpieza de amenazas menores y protección de flanco
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
+
